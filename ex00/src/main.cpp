@@ -6,11 +6,11 @@
 /*   By: ycheroua <ycheroua@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/17 17:37:52 by ycheroua          #+#    #+#             */
-/*   Updated: 2025/01/09 18:29:45 by ycheroua         ###   ########.fr       */
+/*   Updated: 2025/01/09 18:52:30 by ycheroua         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
+#include "templates.hpp"
 
 int main (void)
 {
