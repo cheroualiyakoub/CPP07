@@ -6,7 +6,7 @@
 /*   By: ycheroua <ycheroua@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/09 18:31:49 by ycheroua          #+#    #+#             */
-/*   Updated: 2025/01/14 21:28:51 by ycheroua         ###   ########.fr       */
+/*   Updated: 2025/01/14 21:37:40 by ycheroua         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,14 @@ template <typename T>
 class Array
 {
 	private:
+		T *_array;
 		size_t _size;
-		T _array[];
 		
 	public :
 		Array(void);
 		Array(unsigned int n);
 		~Array();
-		Array(const T& copy);
+		Array(const Array<T>& copy);
 		
 		size_t size(void) const;
 		
