@@ -33,3 +33,6 @@ templates
 *.exe
 *.out
 *.app
+
+#other
+.vscode

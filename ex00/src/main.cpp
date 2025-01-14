@@ -6,7 +6,7 @@
 /*   By: ycheroua <ycheroua@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/17 17:37:52 by ycheroua          #+#    #+#             */
-/*   Updated: 2025/01/09 18:52:30 by ycheroua         ###   ########.fr       */
+/*   Updated: 2025/01/14 15:08:32 by ycheroua         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,4 @@ int main (void)
 	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
     return 0;
 }
+
